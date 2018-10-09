@@ -2,7 +2,7 @@
 1539096185 source:e:\opencv_ex\hand feature\haar_gesture_recognition_base_on_opencv\cpp\detectanddisplay.cpp
 	"../header/header.h"
 
-1539095382 e:\opencv_ex\hand feature\haar_gesture_recognition_base_on_opencv\header\header.h
+1539096921 e:\opencv_ex\hand feature\haar_gesture_recognition_base_on_opencv\header\header.h
 	<opencv2/opencv.hpp>
 	<iostream>
 	<stdio.h>
