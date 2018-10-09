@@ -3,15 +3,10 @@
 #include <opencv2/opencv.hpp>
 #include"../header/header.h"
 using namespace std;
-
 using namespace cv;
 const int key_esc = 27;
 const int key_space = 32;
 char name[130];
-
-using namespace std;
-
-Mat subframe;
 String hand_cascade_name1 = "paper2.xml";
 String hand_cascade_name2 = "data.xml";
 String hand_cascade_name3 = "data.xml";

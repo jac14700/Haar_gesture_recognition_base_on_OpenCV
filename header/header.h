@@ -10,7 +10,7 @@
 #include <cstdio>
 #include <ratio>
 using namespace cv;
-int file();
+void train();
 Mat sobel1(Mat src,Mat sobel,Mat grad_x,Mat grad_y,Mat abs_grad_x,Mat abs_grad_y);
 
 

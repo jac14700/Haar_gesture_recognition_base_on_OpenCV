@@ -8,7 +8,7 @@ char *negatives_document_name="negatives",
     ,*positives_text_name="positives"
     ,*data_doc ="data";
 
-int file()
+void train()
 {
     Mat image;
     int image_height,image_width;
@@ -74,5 +74,4 @@ char system_input[150];
     sprintf(system_input,"opencv_haartraining.exe -data %s/data -vec %s/positives.vec -bg %s -nsplit 2 -minpos %d -nonsym -nstages 7 -npos %d -nneg %d -minhitrate 0.9999 -maxfalsealarm 0.5 -weighttrimming 0.95 -w 17 -h 14 -mem 5000 -mode ALL  "
             ,data_doc,data_doc ,negatives_text_path,positives_images_num/2,positives_images_num,negatives_images_num);
     system(system_input);
-    return 0;
 }
